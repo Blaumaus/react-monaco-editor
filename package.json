@@ -1,5 +1,5 @@
 {
-  "name": "react-monaco-editor",
+  "name": "@blaumaus/react-monaco-editor",
   "version": "0.45.0",
   "description": "Monaco Editor for React",
   "main": "lib/index.js",
@@ -48,8 +48,8 @@
     "typescript": "^4.4.3"
   },
   "peerDependencies": {
-    "@types/react": "^17.x",
-    "react": "^17.x"
+    "@types/react": "^17.x || ^18",
+    "react": "^17.x || ^18"
   },
   "dependencies": {
     "monaco-editor": "^0.27.0",
